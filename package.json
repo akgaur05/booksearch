@@ -1,5 +1,6 @@
 {
   "name": "mern",
+  "homepage": "https://github.com/akgaur05/booksearch.git",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,6 +10,8 @@
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
     "seed": "node scripts/seedDB.js",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
@@ -22,6 +25,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.4.4"
   }
