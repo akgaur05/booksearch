@@ -2,7 +2,7 @@
   "name": "booksearch",
   "homepage": "https://akgaur05.github.io/booksearch/",
   "version": "1.0.0",
-  "description": "react app with mongo",
+  "description": "App MERN",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn run start:prod || yarn run start:dev",
