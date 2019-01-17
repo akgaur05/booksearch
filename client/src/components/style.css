@@ -1,0 +1,36 @@
+.container-fluid {
+    background-color: #343A40;
+    background-image: url("../fake-brick.png");
+    color: white;
+    min-height: 100vh;
+    padding: 0;
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+#search {
+    width: 350px;
+    border-radius: 5px;
+}
+.book {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.header {
+    width: 100%;
+    box-shadow: 0 5px 5px black;
+    margin-bottom: 15px;
+}
+.btn {
+    background-color: #e75480;
+    color: white;
+}
+.btn:hover {
+    background-color: #ffb6c1;
+    color: black;
+}
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
