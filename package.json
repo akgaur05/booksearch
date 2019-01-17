@@ -1,5 +1,6 @@
 {
   "name": "booksearch",
+  "homepage": "https://akgaur05.github.io/booksearch/",
   "version": "1.0.0",
   "description": "react app with mongo",
   "main": "server.js",
