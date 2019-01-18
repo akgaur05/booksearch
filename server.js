@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = express();
 console.log("before");
 const routes = require("./routes/routes");
