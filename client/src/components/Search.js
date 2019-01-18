@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Book from "./Book";
+import Book from "./Book.js";
 import API from "./api/API";
 import "./style.css";
 

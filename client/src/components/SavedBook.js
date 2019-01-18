@@ -23,7 +23,14 @@ class SavedBook extends Component {
 }
 
     componentDidMount() {
-        const bookInfo = {id: this.props.id, title: this.props.title, authors: this.props.authors, thumbnail: this.props.thumbnail, synopsis: this.props.synopsis, link: this.props.link};
+        const bookInfo = {
+            id: this.props.id, 
+            title: this.props.title, 
+            authors: this.props.authors, 
+            thumbnail: this.props.thumbnail, 
+            synopsis: this.props.synopsis, 
+            link: this.props.link
+        };
         this.setState({book: bookInfo});
     }
     
