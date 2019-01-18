@@ -6,8 +6,9 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
+console.log("before");
 const routes = require("./routes/routes");
-
+console.log("after");
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
